@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#line{
+	width:200px;
+	height:2px;
+    background:black;
+	position:absolute;
+	top:250px;
+	left:200px;
+	animation: anim  4s infinite linear;
+}
+
+@Keyframes anim{
+	form{
+		transform: rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
